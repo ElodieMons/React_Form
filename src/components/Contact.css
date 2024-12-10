@@ -1,0 +1,123 @@
+.contactForm {
+  margin: 6em 7em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  margin: 2em 10em;
+  background-color: rgb(245, 245, 245);
+  border-radius: 1em;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.8em;
+}
+
+.firstName {
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+  height: 4em;
+  gap: 0.5em;
+  
+}
+
+.inputFirstName {
+  height: 2em;
+  border-radius: 0.5em;
+}
+
+.lastName {
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+  height: 4em;
+  gap: 0.5em;
+}
+
+.inputLastName {
+  height: 2em;
+  border-radius: 0.5em;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 25em;
+  height: 4em;
+  gap: 0.5em;
+}
+
+.inputEmail {
+  width: 30em;
+  height: 2em;
+  border-radius: 0.5em;
+}
+
+.typeOfQuery {
+  display: flex;
+  flex-direction: column;
+  width: 25em;
+  height: 4em;
+  gap: 1em;
+}
+
+.queryButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.generalEnquiry {
+  border-style: ridge;
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+.supportRequest {
+  border-style: ridge;
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25em;
+  height: 10em;
+  gap: 0.5em;
+}
+
+.writeMessage {
+  width: 30em;
+  height: 10em;
+  border-radius: 0.5em;
+  border-color: black;
+}
+
+.submitForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10em;
+  height: 2.5em;
+}
+
